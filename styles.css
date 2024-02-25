@@ -28,17 +28,16 @@ body {
         box-shadow: 0 0 10px #000000;
 }
 
-.card{
-    width: 1300px;
-    height: 600px;
-}
-
 .imm img{
-    width: 1278px;
-    height: 500px;
+    width: 200px;
+    height: 200px;
 }
 
 /*Footer css starts*/
+
+footer{
+    padding-top: 10px;
+}
 
 .footer-section{
 	display:grid;
@@ -212,13 +211,8 @@ body {
         padding-top: 75px;
     }
 
-    .card{
-        width: 700px;
-        height: 250px;
-    }
-
     .imm img{
-        width: 678px;
+        width: 270px;
         height: 350px;
     }
 
@@ -290,7 +284,7 @@ body {
 /* Footer Css Ends*/
 }
 
-@media screen and (min-width:769px) and (max-width:1024px){
+@media screen and (min-width:769px) and (max-width:1025px){
     body {
         background-color: #fff;
         width: 100%;
@@ -300,18 +294,9 @@ body {
         padding-top: 75px;
     }
 
-    .card{
-        width: 700px;
-        height: 250px;
-    }
-
     .imm img{
-        width: 678px;
-        height: 350px;
-    }
-
-    .card-text {
-        font-size: 12px;
+        width: 320px;
+        height: 392px;
     }
     /* Footer Css Starts*/
 
@@ -379,87 +364,3 @@ body {
 
 }
 
-@media screen and (min-width:1025px) and (max-width:1440px){
-    body {
-        background-color: #fff;
-        width: 100%;
-        height: 100%;
-        padding: 0;
-        margin: 0;
-        padding-top: 75px;
-    }
-
-    .card{
-        width: 1300px;
-        height: 600px;
-    }
-    
-    .imm img{
-        width: 1278px;
-        height: 500px;
-    }
-    /* Footer Css Starts*/
-
-.footer-section{
-	
-	display:grid;
-	grid-template-columns:auto auto auto auto;
-	background-color:#00053b;
-	margin-top:0px;
-	padding: 10px 20px;
-}
-
-.footer-about{
-	padding:0 10px;
-}
-
-.footer-about img{
-    width: 100%;
-    max-width: 250px;
-    height: 90px;
-    padding-top: 10px;
-}
-
-.useful-links, .social-icons{
-	padding:0 20px;
-	
-}
-
-.useful-links h4, .social-icons h4{
-	font-size:18px;
-	color:orange;
-	text-transform:capitalize;
-}
-
-.useful-links ul{
-	list-style: disc;
-	padding:0;
-    color: #fff;
-}
-
-.useful-links ul li, .social-icons ul li {
-	padding-bottom:10px;
-}
-
-.useful-links ul li a{
-	text-decoration:none;
-	font-size:18px;
-    color: #fff;
-}
-
-.social-icons ul{
-    display: flex;
-}
-
-.social-icons  ul li a{
-    padding: 0px 10px;
-    color: #fff;
-}
-
-.social-icons ul{
-    list-style: none;
-}
-
-/* Footer Css Ends*/
-
-}
